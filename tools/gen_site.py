@@ -17,7 +17,7 @@ def page(path,title,desc,body,on="",depth=0):
 <link rel="stylesheet" href="{r}styles.css">
 </head>
 <body>
-<header><div class="wrap"><a class="brand" href="{home}"><img src="{r}assets/logo.svg" alt="">Campbell Labs</a><nav>{nav}</nav></div></header>
+<header><div class="wrap"><a class="brand" href="{home}"><img src="{r}assets/logo.svg" alt=""><span>Campbell Labs</span></a><nav>{nav}</nav></div></header>
 <main>{body}</main>
 <footer><div class="wrap"><span>&copy; 2026 Campbell Labs LLC. All rights reserved.</span><span><a href="{r}privacy.html">Privacy</a><a href="{r}terms.html">Terms</a><a href="{r}support.html">Contact</a></span></div></footer>
 </body>
